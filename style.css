@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+input,
+textarea{
+    font-family: 'Play', sans-serif;
+}
+
+header, h1, h2, h3,
+button{
+    font-family: 'Lemon', serif;
+}
+
+header{
+    background-color: #4053D1;
+    padding: 10px 0;
+}
+
+header > .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container nav li{
+    display: inline;
+}
+
+.container nav li a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 9px;
+}
+
+.container a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 9px;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#welcome{
+    margin-top: 25px;
+}
+
+#welcome img{
+    height: 520px;
+}
+
+#welcome .container {
+    display: flex;
+    align-items: center;
+}
+
+#welcome .container  h1{
+    margin-bottom: 16px;
+}
+
+
+
+
+
+
+footer{
+    background-color: #4053D1;
+    font-family: 'Lemon', serif;
+    color: #69D4B6;
+    padding: 15px 0;
+}
