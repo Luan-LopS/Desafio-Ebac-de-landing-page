@@ -11,13 +11,14 @@ textarea{
 }
 
 header, h1, h2, h3,
-button{
+button, footer{
     font-family: 'Lemon', serif;
 }
 
-header{
+header, footer{
     background-color: #4053D1;
-    padding: 10px 0;
+    padding: 15px 0;
+    color: #fff;
 }
 
 header > .container{
@@ -33,13 +34,12 @@ header > .container{
 .container nav li a{
     text-decoration: none;
     color: #fff;
-    margin-right: 9px;
+    margin-right: 12px;
 }
 
 .container a{
     text-decoration: none;
     color: #fff;
-    margin-right: 9px;
 }
 
 .container{
@@ -50,6 +50,7 @@ header > .container{
 
 #welcome{
     margin-top: 25px;
+    height: 550px;
 }
 
 #welcome img{
@@ -65,14 +66,57 @@ header > .container{
     margin-bottom: 16px;
 }
 
+section{
+    background-color: #e7d6c7;
+}
 
+section .container{
+    display: flex;
+    justify-content: space-between;
+}
 
+section .container article p, h2{
+    margin-left: 10px;
+    margin-bottom: 12px;
+}
 
+section .container article{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
 
+#contact{
+    flex-direction:column;
+    align-items: center;
+    margin-top: 15px;
+    text-align: center;
+}
 
-footer{
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 480px;
+    margin-bottom: 8px;
+    padding: 5px;
+}
+
+form textarea{
+    resize: none;
+    height: 60px;
+}
+
+#contact button{
     background-color: #4053D1;
-    font-family: 'Lemon', serif;
-    color: #69D4B6;
-    padding: 15px 0;
+    padding: 8px 0;
+    color: #fff;
+}
+
+.social-media a img{
+    height: 50px;
+}
+
+.eyewear-models li img{
+    width: 150px;
 }
