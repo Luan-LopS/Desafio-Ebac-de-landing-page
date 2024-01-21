@@ -8,6 +8,7 @@ body,
 input,
 textarea{
     font-family: 'Play', sans-serif;
+    width:100%;
 }
 
 header, h1, h2, h3,
@@ -48,76 +49,37 @@ header > .container{
     margin: 0 auto;
 }
 
-#welcome{
-    margin-top: 25px;
-    height: 550px;
-}
-
-#welcome img{
-    height: 520px;
-}
-
-#welcome .container {
+main .container{
+    height: 60vh;
     display: flex;
     align-items: center;
 }
 
-#welcome .container  h1{
-    margin-bottom: 16px;
+main .container .texto{
+    margin-left:20px;
 }
 
-section .container > .about,
-.contact{
-    background-color: #e7d6c7;
+#about-store{
+    background-color: burlywood;
 }
 
-section .container{
+#about-store .container {
     display: flex;
     justify-content: space-between;
-}
-
-section .container article p, h2{
-    margin-left: 10px;
-    margin-bottom: 12px;
+    height:40vh;
 }
 
 section .container article{
-    width: 40%;
-    display: flex;
-    align-items: center;
-}
-
-#contact{
-    flex-direction:column;
-    align-items: center;
-    margin-top: 15px;
+    width:40%;
     text-align: center;
 }
 
-form input,
-form textarea,
-form button{
-    display: block;
-    width: 480px;
-    margin-bottom: 8px;
-    padding: 5px;
+section .container #contact{
+    text-align: center;
 }
 
-form textarea{
-    resize: none;
-    height: 60px;
+#contact input, h2, textarea{
+    margin-bottom: 12px;
 }
 
-#contact button{
-    background-color: #4053D1;
-    padding: 8px 0;
-    color: #fff;
-}
 
-.social-media a img{
-    height: 50px;
-}
-
-.eyewear-models li img{
-    width: 150px;
-}
