@@ -36,11 +36,22 @@ header > .container{
     text-decoration: none;
     color: #fff;
     margin-right: 12px;
+    font-size: 20px;
+
+}
+
+.container nav li a:hover{
+    color: #000;
 }
 
 .container a{
     text-decoration: none;
     color: #fff;
+    font-size: 20px;
+}
+
+.container a:hover{
+    color: #000;
 }
 
 .container{
@@ -55,8 +66,12 @@ main .container{
     align-items: center;
 }
 
+main .container img{
+    width: 400px;
+}
+
 #about-store{
-    background-color: burlywood;
+    background-color: rgb(255, 235, 211);
 }
 
 #about-store .container {
@@ -70,35 +85,87 @@ section .container article{
     text-align: center;
 }
 
+#about{
+    display: flex;
+}
+
+#about h2{
+    margin-top: 16px;
+}
+
+#about p{
+    text-align: justify;
+    margin-left: 15px;
+}
+
 section .container #contact{
     text-align: center;
 }
 
 #contact input, h2, textarea{
     margin-bottom: 12px;
+    padding: 6px  0;
 }
 
-#contact button{
-    width:100%;
-    border-radius: 8px;
-    cursor:pointer;
+form textarea{
+    resize: none;
+    height: 80px;
 }
+
+form button:hover{
+    background-color: #2248af;
+}
+
+input:focus,
+textarea:focus{
+    outline-color: #4053D1;
+}
+
+#contact form button{
+    width:100%;
+    cursor:pointer;
+    padding: 15px ;
+}
+
+#contact form button:hover{
+    background-color: #2248af;
+}
+
 
 #eyewear{
     width:100%;
-    padding:35px 0;
+    padding: 60px 0;
 }
 
 section .container article ul{
-   display:flex;
+    display:flex;
     align-items: center;
     justify-content: center;
 }
 
+section .container article ul li{
+    list-style: none;
+}
+
+section .container article ul li img{
+    margin-top: 10px;
+    width: 250px;
+}
 
 #follow{
-    width:100%;
-    background-color: burlywood;
+    width: 100%;
+    padding: 35px 0;
+    background-color: rgb(255, 235, 211);
+}
+
+section .container article .social-media a img{
+    text-align: center;
+    height: 45px;
+    margin: 20px 20px 0 20px;
+}
+
+#follow .container article{
+    width: 100%;
 }
 
 footer{
